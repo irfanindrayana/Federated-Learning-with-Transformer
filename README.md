@@ -19,6 +19,7 @@ Menggunakan dataset Malware Memory Analysis (CIC-MalMem-2022)
 | **Informer** | 90,72% | 88,51% | 0,2132 |
 | **Time Series Transformer** | 89,69% | 85,69% | 0,2436 |
 | **Tabular Transformer** | 89,51% | 85,71% | 0,3224 |
+
 Note: Penggunaan titik dan koma mengikuti aturan Indonesia
 
 ### Efisiensi
@@ -29,4 +30,5 @@ Note: Penggunaan titik dan koma mengikuti aturan Indonesia
 | **Peak VRAM (MB)** | 61,17 | 8441,09 | 137,67 |
 | **Training Throughput (samples/sec)** | 1081,7 | 263,52 | 2880,97 |
 | **Inference Latency (ms/sample)** | 0,12 | 0,337 | 0,053 |
+
 Note: Penggunaan titik dan koma mengikuti aturan Indonesia
