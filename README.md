@@ -19,10 +19,14 @@ Menggunakan dataset Malware Memory Analysis (CIC-MalMem-2022)
 | **Informer** | 90,72% | 88,51% | 0,2132 |
 | **Time Series Transformer** | 89,69% | 85,69% | 0,2436 |
 | **Tabular Transformer** | 89,51% | 85,71% | 0,3224 |
+Note: Penggunaan titik dan koma mengikuti aturan Indonesia
 
 ### Efisiensi
-| Arsitektur Model | Total Parameters | Average F1-Score (%) | Average Loss |
+| Metrik Efisiensi | Informer | Tabular Transformer | Time Series Transformer |
 | :--- | :--- | :--- | :--- |
-| **Informer** | 90,72% | 88,51% | 0,2132 |
-| **Time Series Transformer** | 89,69% | 85,69% | 0,2436 |
-| **Tabular Transformer** | 89,51% | 85,71% | 0,3224 |
+| **Total Parameters** | 826.118 | 315.465.222 | 6.056.710 |
+| **Model Size (MB)** | 3,15139 | 1203,4 | 23,1 |
+| **Peak VRAM (MB)** | 61,17 | 8441,09 | 137,67 |
+| **Training Throughput (samples/sec)** | 1081,7 | 263,52 | 2880,97 |
+| **Inference Latency (ms/sample)** | 0,12 | 0,337 | 0,053 |
+Note: Penggunaan titik dan koma mengikuti aturan Indonesia
